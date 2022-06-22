@@ -1,0 +1,209 @@
+# Site
+repository: sproogen/resume-theme
+# favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Nachiket Deo
+title: UC San Diego
+email: ndeo@ucsd.edu
+# website: www.github.com/sproogen/resume-theme
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+linkedin_username: nachiket-deo-263a94242
+github_username:  nachiket92
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+additional_links:
+- title: Google Scholar
+  icon: ai ai-google-scholar
+  url: https://scholar.google.com/citations?user=gfQW70IAAAAJ&hl=en
+- title: ORCiD
+  icon: ai ai-orcid
+  url: https://orcid.org/0000-0001-9422-4109
+
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+ I'm a graduate student at UC San Diego, advised by Prof. Mohan Trivedi. I recently defended by PhD thesis and am actively seeking full-time positions. Before my PhD, I received my MS in electrical and computer engineering from UC San Diego, and my bachelor's in electrical engineering from IIT Bombay.
+
+
+ I'm broadly interested in computer vision and machine learning for autonomous driving. Specifically, my research focuses on behavior prediction models - to predict the intent and trajectories of surrounding vehicles and pedestrians, and to predict driver behavior during control transitions.
+
+
+content:
+  - title: Selected Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+
+      - layout: left
+        title:   <img src="./images/dissertation.png" alt="drawing" width="300"/>
+        description: | # this will include new lines to allow paragraphs
+
+          **Behavior prediction of intelligent agents in and around safe autonomous vehicles**
+
+          Nachiket Deo
+
+          *PhD Thesis, UC San Diego, 2022*
+
+          [[Thesis: (coming soon)]]() [[Slides]]()
+
+
+      - layout: left
+        title:   <img src="./images/pgp.png" alt="drawing" width="300"/>
+        description: | # this will include new lines to allow paragraphs
+
+          **Multimodal trajectory prediction conditioned on lane-graph traversals**
+
+          Nachiket Deo, Eric Wolff, Oscar Beijbom
+
+          *Conference on Robot Learning (CoRL), 2021*
+
+          [[Paper]](https://proceedings.mlr.press/v164/deo22a/deo22a.pdf) [[Code]](https://github.com/nachiket92/PGP)
+
+      - layout: left
+        title:   <img src="./images/offyaw.png" alt="drawing" width="300"/>
+        description: | # this will include new lines to allow paragraphs
+
+          **Trajectory prediction in autonomous driving with a lane heading auxiliary loss**
+
+          Ross Greer, Nachiket Deo, Mohan M. Trivedi
+
+          *Robotics and Automation Letters (RA-L), 2021*
+
+          [[Paper]](https://arxiv.org/pdf/2011.06679.pdf)
+
+
+      - layout: left
+        title:   <img src="./images/mhajam.png" alt="drawing" width="300"/>
+        description: | # this will include new lines to allow paragraphs
+
+          **Trajectory Prediction for Autonomous Driving based on Multi-Head Attention with Joint Agent-Map Representation**
+
+          Kaouther Messaoud, Nachiket Deo, Mohan M. Trivedi, Fawzi Nashashibi
+
+          *IEEE Intelligent Vehicle Symposium (IV), 2021*
+
+          [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9576054)
+
+
+      - layout: left
+        title:   <img src="./images/tot.png" alt="drawing" width="300"/>
+        description: | # this will include new lines to allow paragraphs
+
+          **Predicting take-over time for autonomous driving with real-world data: data augmentation, models, and evaluation**
+
+          Akshay Rangesh\*, Nachiket Deo\*, Ross Greer\*, Pujitha Gunaratne, Mohan M. Trivedi
+
+          *arXiv:2107:12932, 2021*
+
+          [[Paper]](https://arxiv.org/pdf/2107.12932.pdf)
+
+
+      - layout: left
+        title:   <img src="./images/p2t.png" alt="drawing" width="300"/>
+        description: | # this will include new lines to allow paragraphs
+
+          **Trajectory forecasts in unknown environments conditioned on grid-based plans**
+
+          Nachiket Deo, Mohan M. Trivedi
+
+          *arXiv:2001.00735, 2020*
+
+          [[Paper]](https://arxiv.org/abs/2001.00735) [[Code]](https://github.com/nachiket92/P2T)
+
+
+      - layout: left
+        title:   <img src="./images/convlstm.png" alt="drawing" width="300"/>
+        description: | # this will include new lines to allow paragraphs
+
+          **Scene compliant trajectory forecast with agent-centric spatio-temporal grids**
+
+          Daniela Ridel, Nachiket Deo, Denis Wolf, Mohan M. Trivedi
+
+          *Robotics and Automation Letters (RA-L), 2020*
+
+          [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9000540)
+
+
+      - layout: left
+        title:   <img src="./images/ori.png" alt="drawing" width="300"/>
+        description: | # this will include new lines to allow paragraphs
+
+          **Looking at the driver/rider in autonomous vehicles to predict takeover readiness**
+
+          Nachiket Deo, Mohan M. Trivedi
+
+          *IEEE Transactions on Intelligent Vehicles (T-IV), 2019*
+
+          [[Paper]](https://arxiv.org/pdf/1811.06047.pdf)
+
+
+      - layout: left
+        title:   <img src="./images/csp.png" alt="drawing" width="300"/>
+        description: | # this will include new lines to allow paragraphs
+
+          **Convolutional social pooling for vehicle trajectory prediction**
+
+          Nachiket Deo, Mohan M. Trivedi
+
+          *CVPR Workshop on joint detection, tracking and prediction in the wild, 2018*
+
+          [[Paper]](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w29/Deo_Convolutional_Social_Pooling_CVPR_2018_paper.pdf) [[Code]](https://github.com/nachiket92/conv-social-pooling)
+
+
+      - layout: left
+        title:   <img src="./images/tiv.png" alt="drawing" width="300"/>
+        description: | # this will include new lines to allow paragraphs
+
+          **How would surround vehicles move? A unified framework for maneuver recognition and motion prediction**
+
+          Nachiket Deo, Akshay Rangesh, Mohan M. Trivedi
+
+          *IEEE Transactions on Intelligent Vehicles (T-IV), 2018*
+
+          [[Paper]](https://arxiv.org/pdf/1801.06523.pdf) [[Videos]](https://www.youtube.com/watch?v=5KTMMy1Sz-M&list=PLUebh5NWCQUYwB0xxFUwJNdpHIF1G_Kxo&index=3)
+
+
+
+# Footer
+# footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
