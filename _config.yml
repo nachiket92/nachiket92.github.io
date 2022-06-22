@@ -106,7 +106,7 @@ content:
         title:   <img src="./images/mhajam.png" alt="drawing" width="300"/>
         description: | # this will include new lines to allow paragraphs
 
-          **Trajectory Prediction for Autonomous Driving based on Multi-Head Attention with Joint Agent-Map Representation**
+          **Trajectory prediction for autonomous driving based on multi-head attention with joint agent-map representation**
 
           Kaouther Messaoud, Nachiket Deo, Mohan M. Trivedi, Fawzi Nashashibi
 
